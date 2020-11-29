@@ -10,7 +10,7 @@ time-safe strives to turn such runtime bugs into compile-time errors by providin
 time-safe\`s API is exposed via the TimeSafe object exported from the lib\`s index and contains factory methods for all supported interval types:
 
 ```typescript
-import { TimeSafe, Second } from 'time-safe';
+import { TimeSafe, Second } from '@pedrolcn/time-safe';
 
 async function setRedisEntry(key: string, value: any, ttl: Second) {
   const redisClient = ... //acquire redis client somehow
