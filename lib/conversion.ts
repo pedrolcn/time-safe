@@ -1,0 +1,10 @@
+// Conversion factor constants;
+export const SECONDS_TO_MILISECONDS_FACTOR = 1000;
+
+export const MINUTES_TO_MILISECONDS_FACTOR = 60_000;
+
+export const HOURS_TO_MILISECONDS_FACTOR = 3_600_000;
+
+export const DAYS_TO_MILISECONDS_FACTOR = 86_400_000;
+
+export const WEEKS_TO_MILISECONDS_FACTOR = 604_800_000;

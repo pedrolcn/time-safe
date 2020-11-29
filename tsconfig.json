@@ -15,7 +15,6 @@
     "noUnusedParameters": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedIndexedAccess": true,
     "moduleResolution": "node",
     "baseUrl": "./",
     "types": [
@@ -23,5 +22,7 @@
     ],
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
-  }
+  },
+  "include": ["./lib"],
+  "exclude": ["./node_modules"],
 }
