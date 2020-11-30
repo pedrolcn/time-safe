@@ -3,7 +3,15 @@
   "version": "0.2.0",
   "description": "Type-safe time classes",
   "main": "/dist/index.js",
-  "author": "Pedro Nascimento",
+  "author": "Pedro Nascimento <pedrolcn@gmail.com>",
+  "contributors": ["Pedro Nascimento <pedrolcn@gmail.com>"],
+  "homepage": "https://github.com/pedrolcn/time-safe",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pedrolcn/time-safe"
+  },
+  "keywords": ["type-safe", "interval", "duration", "immutable"],
+  "files": ["./dist"],
   "license": "MIT",
   "private": false,
   "scripts": {
