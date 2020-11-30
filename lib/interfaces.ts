@@ -1,6 +1,8 @@
 import { Variant } from "./interval";
 
-interface BaseInterval {
+export interface BaseInterval {
+  variant: Variant;
+
   /**
    * Returns the number of miliseconds contained in the interval
    */

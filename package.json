@@ -1,6 +1,6 @@
 {
   "name": "@pedrolcn/time-safe",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Type-safe time classes",
   "main": "/dist/index.js",
   "author": "Pedro Nascimento",
@@ -8,8 +8,7 @@
   "private": false,
   "scripts": {
     "build": "tsc",
-    "prebuild": "rimraf dist",
-    "publish": "npm publish --access=public"
+    "prebuild": "rimraf dist"
   },
   "devDependencies": {
     "@types/node": "^14.14.10",

@@ -33,3 +33,6 @@ export class TimeSafe {
     return new WeekClass(weeks);
   }
 }
+
+// Reexport interfaces.
+export { Milisecond, Second, Minute, Hour, Day, Week };
