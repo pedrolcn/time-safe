@@ -7,6 +7,12 @@ time-safe strives to turn such runtime bugs into compile-time errors by providin
 
 ## Usage
 
+install via your package manager of choice:
+```shell
+$ yarn add @pedrolcn/time-safe
+$ npm i @pedrolcn/time-safe
+```
+
 time-safe\`s API is exposed via the TimeSafe object exported from the lib\`s index and contains factory methods for all supported interval types:
 
 ```typescript
