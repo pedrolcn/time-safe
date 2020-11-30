@@ -5,6 +5,9 @@ import {
   DAYS_TO_MILISECONDS_FACTOR,
   WEEKS_TO_MILISECONDS_FACTOR,
 } from './conversion';
+import { BaseInterval } from './interfaces';
+
+type Ctor<T> = new(...args: any) => T;
 
 export enum Variant {
   MILISECOND,
@@ -15,7 +18,7 @@ export enum Variant {
   WEEK,
 }
 
-const Interval = typeof BigInt === 'function'
+const Interval: Ctor<BaseInterval> = typeof BigInt === 'function'
   ? require('./base-bigInt').Interval
   : require('./base').Interval
 
