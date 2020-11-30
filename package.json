@@ -1,6 +1,6 @@
 {
   "name": "@pedrolcn/time-safe",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Type-safe time classes",
   "main": "./dist/index.js",
   "author": "Pedro Nascimento <pedrolcn@gmail.com>",
