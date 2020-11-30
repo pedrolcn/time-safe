@@ -26,7 +26,8 @@
   "private": false,
   "scripts": {
     "build": "tsc",
-    "prebuild": "rimraf dist"
+    "prebuild": "rimraf dist",
+    "prepare": "yarn build"
   },
   "devDependencies": {
     "@types/node": "^14.14.10",
