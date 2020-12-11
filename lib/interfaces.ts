@@ -1,6 +1,6 @@
 import { Variant } from "./interval";
 
-export interface BaseInterval {
+export interface Interval {
   variant: Variant;
 
   /**
@@ -34,25 +34,25 @@ export interface BaseInterval {
   asWeeks(): number;
 }
 
-export interface Milisecond extends BaseInterval {
+export interface Milisecond extends Interval {
   variant: Variant.MILISECOND;
 };
 
-export interface Second extends BaseInterval {
+export interface Second extends Interval {
   variant: Variant.SECOND;
 }
 
-export interface Minute extends BaseInterval {
+export interface Minute extends Interval {
   variant: Variant.MINUTE;
 }
 
-export interface Hour extends BaseInterval {
+export interface Hour extends Interval {
   variant: Variant.HOUR;
 }
 
-export interface Day extends BaseInterval {
+export interface Day extends Interval {
   variant: Variant.DAY;
 }
-export interface Week extends BaseInterval {
+export interface Week extends Interval {
   variant: Variant.WEEK
 }

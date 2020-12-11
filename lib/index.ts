@@ -6,7 +6,7 @@ import {
   Day as DayClass,
   Week as WeekClass
 } from "./interval";
-import { Milisecond, Second, Minute, Hour, Day, Week } from './interfaces';
+import { Milisecond, Second, Minute, Hour, Day, Week, Interval } from './interfaces';
 
 export class TimeSafe {
   public static miliseconds(miliseconds: number): Milisecond {
@@ -35,4 +35,4 @@ export class TimeSafe {
 }
 
 // Reexport interfaces.
-export { Milisecond, Second, Minute, Hour, Day, Week };
+export { Milisecond, Second, Minute, Hour, Day, Week, Interval };
